@@ -5,7 +5,7 @@ import joblib
 import pickle
 
 
-app = Flask(__name__)
+app = (__name__)
 
 model = joblib.load('model.pkl')
 onehot = joblib.load('OneHotee.joblib')
